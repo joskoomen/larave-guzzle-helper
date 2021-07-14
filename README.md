@@ -1,2 +1,1 @@
-# larave-guzzle-helper
-Helper
+# laravel-abstract-guzzlehttp-helper

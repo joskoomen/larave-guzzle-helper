@@ -1,0 +1,28 @@
+{
+    "name": "joskoomen/guzzlehttp",
+    "description": "Abstract GuzzleHttp Package for Laravel",
+    "type": "package",
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "require-dev": {
+        "orchestra/testbench": "3.7.*",
+        "laravel/tinker": "^1.0",
+        "phpunit/phpunit": "^7.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jos Koomen",
+            "email": "hello@joskoo.men"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "JosKoomen\\GuzzleHttp\\": "src/"
+        },
+        "files": [
+            "helpers.php"
+        ]
+    }
+}
